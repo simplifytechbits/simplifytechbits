@@ -1,0 +1,14 @@
+{
+    "python": [
+        {
+            "id": "1",
+            "title": "Python: 编程世界的璀璨明星",
+            "file": "编程世界的璀璨明星.md"
+        },
+        {
+            "id": "2",
+            "title": "Python语言诞生的历史",
+            "file": "Python语言诞生的历史.md"
+        }
+    ]
+}

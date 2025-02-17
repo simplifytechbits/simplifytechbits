@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>SimplifyTechBits</title>
+    <style>
+        .category-list {
+            margin: 20px;
+        }
+        .category-item {
+            margin: 10px 0;
+        }
+        .category-link {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+        }
+        .category-link:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to SimplifyTechBits</h1>
+    <div class="category-list">
+        {% for category, notes in categories.items() %}
+        <div class="category-item">
+            <a href="/notes/{{ category }}" class="category-link">{{ category }}</a>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
